@@ -1,4 +1,8 @@
-.app h1 {
+.app {
   margin-top: 50px;
+}
+
+.app h1 {
   text-align: center;
+  color: #576f72;
 }
