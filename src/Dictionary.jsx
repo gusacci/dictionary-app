@@ -19,10 +19,13 @@ const Dictionary = () => {
   };
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="text" onChange={handleKeywordChange} />
-        <button type="submit">Search</button>
-      </form>
+      <div className="heading">
+        <h1> Dictionary</h1>
+        <form onSubmit={search}>
+          <input type="text" onChange={handleKeywordChange} />
+          <button type="submit">Search</button>
+        </form>
+      </div>
       <Results results={results} />
       <p className="footer">
         Coded by{" "}

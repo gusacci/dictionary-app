@@ -2,6 +2,21 @@
   margin: 30px auto;
   max-width: 700px;
 }
+
+.Dictionary h1 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.heading {
+  margin: 10px;
+  margin-bottom: 20px;
+  background-color: #f0ebe3;
+  padding: 10px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+
 form {
   display: flex;
 }
