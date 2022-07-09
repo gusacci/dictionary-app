@@ -1,12 +1,10 @@
 import React from "react";
 
 const Synonyms = (props) => {
-  console.log(props);
   if (props.synonyms.length >= 1) {
     return (
-      <div>
+      <div className="Synonyms">
         {" "}
-        <strong>synonyms:</strong>
         <ul>
           {props.synonyms.map(function (synonym, index) {
             return <li key={index}>{synonym}</li>;

@@ -18,12 +18,18 @@ const Dictionary = () => {
     axios.get(apiUrl).then(handleResponse);
   };
   return (
-    <div>
+    <div className="Dictionary">
       <form onSubmit={search}>
         <input type="text" onChange={handleKeywordChange} />
         <button type="submit">Search</button>
       </form>
       <Results results={results} />
+      <p className="footer">
+        Coded by{" "}
+        <a href="/" target="_blank" rel="noreferrer">
+          Anastasia Gusak
+        </a>
+      </p>
     </div>
   );
 };

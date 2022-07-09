@@ -4,9 +4,8 @@ import ReactAudioPlayer from "react-audio-player";
 const Phonetics = (props) => {
   if (props.phonetic.audio) {
     return (
-      <div>
-        {props.phonetic.text}
-        <br />
+      <div className="Phonetics">
+        <p>{props.phonetic.text}</p>
         <ReactAudioPlayer
           src={props.phonetic.audio}
           autoPlay={false}
@@ -15,7 +14,7 @@ const Phonetics = (props) => {
       </div>
     );
   } else {
-    return null;
+    return <div> {props.phonetic.text}</div>;
   }
 };
 

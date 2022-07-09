@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app ">
       <h1> Dictionary</h1>
-      <Dictionary />
+      <Dictionary defaultWord="cool" />
     </div>
   );
 }
