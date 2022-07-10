@@ -9,7 +9,7 @@
 }
 
 .heading {
-  margin: 10px;
+  margin: 10px 0;
   margin-bottom: 20px;
   background-color: #f0ebe3;
   padding: 10px;
@@ -67,4 +67,9 @@ button {
   font-size: 10px;
   opacity: 0, 7;
   margin-top: 50px;
+}
+
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
